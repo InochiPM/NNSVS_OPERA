@@ -1,0 +1,299 @@
+#in_dim: 287 (duration/timelag), 291 (acoustic)
+QS "Falsetto" {*^F_*}
+QS "Head_Voice" {*^H_*}
+QS "Soft_Voice" {*^SF_*}
+QS "Strong_Voice" {*^ST_*}
+QS "Whisper_Devoiced" {*^W_*}
+QS "Bright_Resonance" {*^BR_*}
+QS "Dark_Resonance" {*^DR_*}
+QS "Nasal" {*^N_*}
+QS "Additional_1" {*^1_*}
+QS "Additional_2" {*^2_*}
+QS "Additional_3" {*^3_*}
+
+QS "L-Vowels" {*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^ay-*,*^aw-*,*^iy-*,*^ih-*,*^ix-*,*^uh-*,*^uw-*,*^ux-*,*^ui-*,*^eh-*,*^ey-*,*^er-*,*^eu-*,*^ow-*,*^oy-*}
+QS "C-Vowels" {*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-ay+*,*-aw+*,*-iy+*,*-ih+*,*-ix+*,*-uh+*,*-uw+*,*-ux+*,*-ui+*,*-eh+*,*-ey+*,*-er+*,*-eu+*,*-ow+*,*-oy+*}
+QS "R-Vowels" {*+ah=*,*+aa=*,*+ao=*,*+ae=*,*+ax=*,*+ay=*,*+aw=*,*+iy=*,*+ih=*,*+ix=*,*+uh=*,*+uw=*,*+ux=*,*+ui=*,*+eh=*,*+ey=*,*+er=*,*+eu=*,*+ow=*,*+oy=*}
+
+QS "L- Consonants" {*^b-*,*^ch-*,*^d-*,*^dh-*,*^dx-*,*^dz-*,*^el-*,*^em-*,*^en-*,*^f-*,*^g-*,*^h-*,*^j-*,*^k-*,*^l-*,*^gl-*,*^m-*,*^n-*,*^ny-*,*^ng-*,*^nx-*,*^p-*,*^r-*,*^rr-*,*^rx-*,*^s-*,*^sh-*,*^t-*,*^ts-*,*^th-*,*^v-*,*^w-*,*^wh-*,*^x-*,*^y-*,*^z-*,*^zh-*}
+QS "C- Consonants" {*-b+*,*-ch+*,*-d+*,*-dh+*,*-dx+*,*-dz+*,*-el+*,*-em+*,*-en+*,*-f+*,*-g+*,*-h+*,*-j+*,*-k+*,*-l+*,*-gl+*,*-m+*,*-n+*,*-ny+*,*-ng+*,*-nx+*,*-p+*,*-r+*,*-rr+*,*-rx+*,*-s+*,*-sh+*,*-t+*,*-ts+*,*-th+*,*-v+*,*-w+*,*-wh+*,*-x+*,*-y+*,*-z+*,*-zh+*}
+QS "R- Consonants" {*+b=*,*+ch=*,*+d=*,*+dh=*,*+dx=*,*+dz=*,*+el=*,*+em=*,*+en=*,*+f=*,*+g=*,*+h=*,*+j=*,*+k=*,*+l=*,*+gl=*,*+m=*,*+n=*,*+ny=*,*+ng=*,*+nx=*,*+p=*,*+r=*,*+rr=*,*+rx=*,*+s=*,*+sh=*,*+t=*,*+ts=*,*+th=*,*+v=*,*+w=*,*+wh=*,*+x=*,*+y=*,*+z=*,*+zh=*}
+
+QS "L- Unvoiced" {*^ch-*,*^f-*,*^h-*,*^k-*,*^p-*,*^rx-*,*^s-*,*^sh-*,*^t-*,*^ts-*,*^wh-*,*^x-*}
+QS "C- Unvoiced" {*-ch+*,*-f+*,*-h+*,*-k+*,*-p+*,*-rx+*,*-s+*,*-sh+*,*-t+*,*-ts+*,*-wh+*,*-x+*}
+QS "R- Unvoiced" {*+ch=*,*+f=*,*+h=*,*+k=*,*+p=*,*+rx=*,*+s=*,*+sh=*,*+t=*,*+ts=*,*+wh=*,*+x=*}
+
+QS "L- Voiced" {*^b-*,*^d-*,*^dh-*,*^dx-*,*^dz-*,*^el-*,*^em-*,*^en-*,*^g-*,*^j-*,*^l-*,*^gl-*,*^m-*,*^n-*,*^ny-*,*^ng-*,*^nx-*,*^r-*,*^rr-*,*^th-*,*^v-*,*^w-*,*^y-*,*^z-*,*^zh-*}
+QS "C- Voiced" {*-b+*,*-d+*,*-dh+*,*-dx+*,*-dz+*,*-el+*,*-em+*,*-en+*,*-g+*,*-j+*,*-l+*,*-gl+*,*-m+*,*-n+*,*-ny+*,*-ng+*,*-nx+*,*-r+*,*-rr+*,*-th+*,*-v+*,*-w+*,*-y+*,*-z+*,*-zh+*}
+QS "R- Voiced" {*+b=*,*+d=*,*+dh=*,*+dx=*,*+dz=*,*+el=*,*+em=*,*+en=*,*+g=*,*+j=*,*+l=*,*+gl=*,*+m=*,*+n=*,*+ny=*,*+ng=*,*+nx=*,*+r=*,*+rr=*,*+th=*,*+v=*,*+w=*,*+y=*,*+z=*,*+zh=*}
+
+QS "L- Unrounded" {*^ah-*,*^aa-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^ix-*,*^eh-*}
+QS "C- Unrounded" {*-ah+*,*-aa+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-ix+*,*-eh+*}
+QS "R- Unrounded" {*+ah=*,*+aa=*,*+ae=*,*+ax=*,*+iy=*,*+ih=*,*+ix=*,*+eh=*}
+
+QS "L- Rounded" {*^ao-*,*^uh-*,*^uw-*,*^ux-*}
+QS "C- Rounded" {*-ao+*,*-uh+*,*-uw+*,*-ux+*}
+QS "R- Rounded" {*+ao=*,*+uh=*,*+uw=*,*+ux=*}
+
+QS "L-Diphthong" {*^ay-*,*^aw-*,*^ui-*,*^ey-*,*^eu-*,*^ow-*,*^oy-*}
+QS "C-Diphthong" {*-ay+*,*-aw+*,*-ui+*,*-ey+*,*-eu+*,*-ow+*,*-oy+*}
+QS "R-Diphthong" {*+ay=*,*+aw=*,*+ui=*,*+ey=*,*+eu=*,*+ow=*,*+oy=*}
+
+QS "L-Utility Phonemes" {*^q-*,*^pau-*,*^exh-*,*^axh-*,*^ct-*,*^cl-*,*^vf-*}
+QS "C-Utility Phonemes" {*-q+*,*-pau+*,*-exh+*,*-axh+*,*-ct+*,*-cl+*,*-vf+*}
+QS "R-Utility Phonemes" {*+q=*,*+pau=*,*+exh=*,*+axh=*,*+ct=*,*+cl=*,*+vf=*}
+
+QS "L-ah" {*^ah-*}
+QS "C-ah" {*-ah+*}
+QS "R-ah" {*+ah=*}
+QS "L-aa" {*^aa-*}
+QS "C-aa" {*-aa+*}
+QS "R-aa" {*+aa=*}
+QS "L-ao" {*^ao-*}
+QS "C-ao" {*-ao+*}
+QS "R-ao" {*+ao=*}
+QS "L-ae" {*^ae-*}
+QS "C-ae" {*-ae+*}
+QS "R-ae" {*+ae=*}
+QS "L-ax" {*^ax-*}
+QS "C-ax" {*-ax+*}
+QS "R-ax" {*+ax=*}
+QS "L-ay" {*^ay-*}
+QS "C-ay" {*-ay+*}
+QS "R-ay" {*+ay=*}
+QS "L-aw" {*^aw-*}
+QS "C-aw" {*-aw+*}
+QS "R-aw" {*+aw=*}
+QS "L-iy" {*^iy-*}
+QS "C-iy" {*-iy+*}
+QS "R-iy" {*+iy=*}
+QS "L-ih" {*^ih-*}
+QS "C-ih" {*-ih+*}
+QS "R-ih" {*+ih=*}
+QS "L-ix" {*^ix-*}
+QS "C-ix" {*-ix+*}
+QS "R-ix" {*+ix=*}
+QS "L-uh" {*^uh-*}
+QS "C-uh" {*-uh+*}
+QS "R-uh" {*+uh=*}
+QS "L-uw" {*^uw-*}
+QS "C-uw" {*-uw+*}
+QS "R-uw" {*+uw=*}
+QS "L-ux" {*^ux-*}
+QS "C-ux" {*-ux+*}
+QS "R-ux" {*+ux=*}
+QS "L-ui" {*^ui-*}
+QS "C-ui" {*-ui+*}
+QS "R-ui" {*+ui=*}
+QS "L-eh" {*^eh-*}
+QS "C-eh" {*-eh+*}
+QS "R-eh" {*+eh=*}
+QS "L-ey" {*^ey-*}
+QS "C-ey" {*-ey+*}
+QS "R-ey" {*+ey=*}
+QS "L-er" {*^er-*}
+QS "C-er" {*-er+*}
+QS "R-er" {*+er=*}
+QS "L-eu" {*^eu-*}
+QS "C-eu" {*-eu+*}
+QS "R-eu" {*+eu=*}
+QS "L-ow" {*^ow-*}
+QS "C-ow" {*-ow+*}
+QS "R-ow" {*+ow=*}
+QS "L-oy" {*^oy-*}
+QS "C-oy" {*-oy+*}
+QS "R-oy" {*+oy=*}
+QS "L-b" {*^b-*}
+QS "C-b" {*-b+*}
+QS "R-b" {*+b=*}
+QS "L-ch" {*^ch-*}
+QS "C-ch" {*-ch+*}
+QS "R-ch" {*+ch=*}
+QS "L-d" {*^d-*}
+QS "C-d" {*-d+*}
+QS "R-d" {*+d=*}
+QS "L-dh" {*^dh-*}
+QS "C-dh" {*-dh+*}
+QS "R-dh" {*+dh=*}
+QS "L-dx" {*^dx-*}
+QS "C-dx" {*-dx+*}
+QS "R-dx" {*+dx=*}
+QS "L-dz" {*^dz-*}
+QS "C-dz" {*-dz+*}
+QS "R-dz" {*+dz=*}
+QS "L-el" {*^el-*}
+QS "C-el" {*-el+*}
+QS "R-el" {*+el=*}
+QS "L-em" {*^em-*}
+QS "C-em" {*-em+*}
+QS "R-em" {*+em=*}
+QS "L-en" {*^en-*}
+QS "C-en" {*-en+*}
+QS "R-en" {*+en=*}
+QS "L-f" {*^f-*}
+QS "C-f" {*-f+*}
+QS "R-f" {*+f=*}
+QS "L-g" {*^g-*}
+QS "C-g" {*-g+*}
+QS "R-g" {*+g=*}
+QS "L-h" {*^h-*}
+QS "C-h" {*-h+*}
+QS "R-h" {*+h=*}
+QS "L-j" {*^j-*}
+QS "C-j" {*-j+*}
+QS "R-j" {*+j=*}
+QS "L-k" {*^k-*}
+QS "C-k" {*-k+*}
+QS "R-k" {*+k=*}
+QS "L-l" {*^l-*}
+QS "C-l" {*-l+*}
+QS "R-l" {*+l=*}
+QS "L-gl" {*^gl-*}
+QS "C-gl" {*-gl+*}
+QS "R-gl" {*+gl=*}
+QS "L-m" {*^m-*}
+QS "C-m" {*-m+*}
+QS "R-m" {*+m=*}
+QS "L-n" {*^n-*}
+QS "C-n" {*-n+*}
+QS "R-n" {*+n=*}
+QS "L-ny" {*^ny-*}
+QS "C-ny" {*-ny+*}
+QS "R-ny" {*+ny=*}
+QS "L-ng" {*^ng-*}
+QS "C-ng" {*-ng+*}
+QS "R-ng" {*+ng=*}
+QS "L-nx" {*^nx-*}
+QS "C-nx" {*-nx+*}
+QS "R-nx" {*+nx=*}
+QS "L-p" {*^p-*}
+QS "C-p" {*-p+*}
+QS "R-p" {*+p=*}
+QS "L-r" {*^r-*}
+QS "C-r" {*-r+*}
+QS "R-r" {*+r=*}
+QS "L-rr" {*^rr-*}
+QS "C-rr" {*-rr+*}
+QS "R-rr" {*+rr=*}
+QS "L-rx" {*^rx-*}
+QS "C-rx" {*-rx+*}
+QS "R-rx" {*+rx=*}
+QS "L-s" {*^s-*}
+QS "C-s" {*-s+*}
+QS "R-s" {*+s=*}
+QS "L-sh" {*^sh-*}
+QS "C-sh" {*-sh+*}
+QS "R-sh" {*+sh=*}
+QS "L-t" {*^t-*}
+QS "C-t" {*-t+*}
+QS "R-t" {*+t=*}
+QS "L-ts" {*^ts-*}
+QS "C-ts" {*-ts+*}
+QS "R-ts" {*+ts=*}
+QS "L-th" {*^th-*}
+QS "C-th" {*-th+*}
+QS "R-th" {*+th=*}
+QS "L-v" {*^v-*}
+QS "C-v" {*-v+*}
+QS "R-v" {*+v=*}
+QS "L-w" {*^w-*}
+QS "C-w" {*-w+*}
+QS "R-w" {*+w=*}
+QS "L-wh" {*^wh-*}
+QS "C-wh" {*-wh+*}
+QS "R-wh" {*+wh=*}
+QS "L-x" {*^x-*}
+QS "C-x" {*-x+*}
+QS "R-x" {*+x=*}
+QS "L-y" {*^y-*}
+QS "C-y" {*-y+*}
+QS "R-y" {*+y=*}
+QS "L-z" {*^z-*}
+QS "C-z" {*-z+*}
+QS "R-z" {*+z=*}
+QS "L-zh" {*^zh-*}
+QS "C-zh" {*-zh+*}
+QS "R-zh" {*+zh=*}
+QS "L-q" {*^q-*}
+QS "C-q" {*-q+*}
+QS "R-q" {*+q=*}
+QS "L-pau" {*^pau-*}
+QS "C-pau" {*-pau+*}
+QS "R-pau" {*+pau=*}
+QS "L-exh" {*^exh-*}
+QS "C-exh" {*-exh+*}
+QS "R-exh" {*+exh=*}
+QS "L-axh" {*^axh-*}
+QS "C-axh" {*-axh+*}
+QS "R-axh" {*+axh=*}
+QS "L-ct" {*^ct-*}
+QS "C-ct" {*-ct+*}
+QS "R-ct" {*+ct=*}
+QS "L-cl" {*^cl-*}
+QS "C-cl" {*-cl+*}
+QS "R-cl" {*+cl=*}
+QS "L-vf" {*^vf-*}
+QS "C-vf" {*-vf+*}
+QS "R-vf" {*+vf=*}
+
+# from r9y9/nnsvs/recipes/_common
+
+CQS "d1" {/D:(\NOTE)!}
+CQS "e1" {/E:(\NOTE)]}
+CQS "f1" {/F:(\NOTE)#}
+
+CQS "p12" {-(\d+)!}
+CQS "p13" {!(\d+)[}
+
+CQS "p15" {$(\d+)]}
+CQS "a1" {/A:(\d+)-}
+CQS "a2" {-(\d+)-}
+CQS "a3" {-(\d+)@}
+
+CQS "b1" {/B:(\d+)_}
+CQS "b2" {_(\d+)_}
+CQS "b3" {_(\d+)@}
+
+CQS "c1" {/C:(\d+)+}
+CQS "c2" {+(\d+)+}
+CQS "c3" {+(\d+)@}
+
+CQS "d2" {!(\d+)#}
+
+CQS "d6" {|(\d+)&}
+CQS "d7" {&(\d+);}
+CQS "d8" {;(\d+)-}
+
+CQS "e2" {](\d+)^}
+
+CQS "e6" {!(\d+)@}
+CQS "e7" {@(\d+)#}
+CQS "e8" {#(\d+)+}
+
+CQS "e10_position_by_note_in_measure"      {](\d+)$}
+CQS "e11_position_by_note_in_measure"      {$(\d+)|}
+CQS "e12_position_by_10ms_in_measure"      {|(\d+)[}
+CQS "e13_position_by_10ms_in_measure"      {[(\d+)&}
+CQS "e14_position_by_96th_note_in_measure" {&(\d+)]}
+CQS "e15_position_by_96th_note_in_measure" {](\d+)=}
+CQS "e16_position_by_percent_in_measure"   {=(\d+)^}
+CQS "e17_position_by_percent_in_measure"   {^(\d+)~}
+
+# taken from enunu
+CQS "e18_position_by_note"      {~(\d+)#}
+CQS "e19_position_by_note"      {#(\d+)_}
+CQS "e20_position_by_10ms"      {_(\d+);}
+CQS "e21_position_by_10ms"      {;(\d+)$}
+CQS "e22_position_by_96th_note" {$(\d+)&}
+CQS "e23_position_by_96th_note" {&(\d+)%}
+CQS "e24_position_by_percent"   {%(\d+)[}
+CQS "e25_position_by_percent"   {[(\d+)|}
+
+CQS "e57" {~([pm]\d+)+}
+CQS "e58" {+([pm]\d+)!}
+
+CQS "f2" {#(\d+)#}
+
+CQS "f6" {$(\d+)+}
+CQS "f7" {+(\d+)%}
+CQS "f8" {%(\d+);}
